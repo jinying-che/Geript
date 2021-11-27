@@ -8,4 +8,4 @@ fi
 file=$(echo $ret | cut -d : -f 1)
 line=$(echo $ret | cut -d : -f 2)
 
-vim $file +$line
+nvim $file +$line

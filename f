@@ -24,5 +24,5 @@ esac
 
 if [ ! -z "$r" ]
 then 
-	vim $r
+	nvim $r
 fi
